@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="picture-section">
+            </div>
+            <div class="form-section">
+                <div class="text left">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque deserunt cumque quaerat sint minima.
+                    Illo
+                    assumenda laborum recusandae ex alias!
+                </div>
+                <p class="undertext left">You know you want to</p>
+                <form action="#" method="get">
+                    <div class="form left">
+                        <div class="firstname input">
+                            <label for="first_name">First Name*</label>
+                            <input type="text" name="first_name" id="first_name" minlength="2" required>
+                        </div>
+                        <div class="lastname input">
+                            <label for="last_name">Last Name*</label>
+                            <input type="text" name="last_name" id="last_name" minlength="2" required>
+                        </div>
+                        <div class="email input">
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="phone input">
+                            <label for="phone">Phone number</label>
+                            <input type="number" name="phone" id="phone">
+                        </div>
+                        <div class="password input">
+                            <label for="password">Password*</label>
+                            <input type="password" name="password" id="password" minlength="6" required>
+                        </div>
+                        <div class="conf-password input">
+                            <label for="confpassword">Confirm Password*</label>
+                            <input type="password" name="confpassword" id="confpassword" minlength="6" required>
+                        </div>
+                    </div>
+                    <div id="error-pw">Passwords do not match!</div>
+                    <div class="left button"><button type="submit">Create Account</button></div>
+                    <p class="text2 left">Already have an account? <a href="#"> Sign in</a></p>
+                </form>
+            </div>
+
+        </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

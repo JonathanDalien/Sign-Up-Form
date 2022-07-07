@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Nunito Sans";
+    color: white;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.picture-section {
+    background-image: url(./images/faris-mohammed-d30sszrW7Vw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 40vw;
+
+}
+
+.text {
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.undertext {
+    margin: 40px 0 80px;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+.form-section {
+    background-color: #2f5f7b;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left {
+    margin-left: 3vw;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 40%;
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input {
+    background-color: #4287af;
+    height: 5vh;
+    border-radius: 5px;
+    border: 1px solid #4287af;
+    font-size: 1.3rem;
+    box-shadow: inset .1rem .1rem .2rem #285068, inset -.1rem -.1rem .2rem #387294;
+    padding: 10px;
+}
+
+
+
+input:valid {
+    border-color: green;
+}
+
+
+input:focus {
+    outline: none;
+    border: 1px solid #d4dde2;
+}
+
+form {
+    background-color: #4287af;
+    box-shadow: .1rem .2rem .3rem #000;
+
+}
+
+#error-pw {
+    margin-top: -20px;
+    margin-bottom: 30px;
+    margin-left: 3vw;
+    color: lightcoral;
+    display: none;
+}
+
+button {
+    width: 10vw;
+    min-height: 5vh;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    background-color: #4287af;
+    border: 1px solid #285068;
+    border-radius: 10px;
+    box-shadow: .1rem .1rem .2rem #000;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4798c7;
+}
+
+.text2 {
+    margin: 10px 3vw;
+}

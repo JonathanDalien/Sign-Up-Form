@@ -152,7 +152,7 @@ button:hover {
 @media only screen and (max-width: 600px) {
 
     .container {
-        flex-flow: column;
+        flex-direction: column;
         height: auto;
         text-align: center;
     }
